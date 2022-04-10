@@ -1,4 +1,9 @@
-# A simple script I use for my developing environment with vim and zsh
+# Coding Environment
+# A script for a developing environment with vim and zsh
+I copied this and made it more bashlike and turned off beep for wsl
+
+## All credit to
+https://github.com/benninghoven/coding-enviro
 
 # Install
 go to the src directory
