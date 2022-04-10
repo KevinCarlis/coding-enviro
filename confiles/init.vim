@@ -20,12 +20,12 @@
 
 au BufReadPost * if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
 
-call plug#begin()
+# call plug#begin()
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Mofiqul/dracula.nvim'
+# Plug 'neoclide/coc.nvim', {'branch': 'release'}
+# Plug 'Mofiqul/dracula.nvim'
 
-call plug#end()
+# call plug#end()
 
 highlight Normal guibg=none
 highlight NonText guibg=none
