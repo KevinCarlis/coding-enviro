@@ -3,16 +3,19 @@
 clear
 neofetch
 #= Utility
+alias py="python3"
 alias cl="clear"
+alias cls="clear"
 alias rf="clear;neofetch"
 alias src="source ~/.zshrc;echo zshrc sourced 🦑"
 alias ll="command ls -la --color"
-alias ls="ls --color --group-directories-first"
+alias ls="ls -x --color --group-directories-first"
 alias genkey="ssh-keygen -t rsa -b 4096"
 alias vv="echo fix me"
 alias vz="vim ~/.zshrc"
 alias vr="vim ~/.config/nvim/init.vim"
 alias tmux="TERM=screen-256color-bce tmux" # fixes tmux sessions not having color
 alias tkill="tmux kill-server"
-alias vim="nvim"
+alias v="nvim"
+alias compile ="g++-10 -Wall -Wextra -Wpedantic -pedantic-errors -Wno-unused-variable -Wno-unused-parameter -std=c++2a -g -fmax-errors=1 -Wfatal-errors -D_GLIBCXX_DEBUG -fsanitize=undefined -fsanitize=address"
 unsetopt BEEP
