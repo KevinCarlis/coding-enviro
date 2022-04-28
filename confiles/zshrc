@@ -3,6 +3,8 @@
 clear
 neofetch
 #= Utility
+alias sudo="sudo "
+alias a="./a.out"
 alias py="python3"
 alias cl="clear"
 alias cls="clear"
